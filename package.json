@@ -362,17 +362,25 @@
       "types": "./index.d.ts",
       "default": "./fesm2022/ng-zorro-antd.mjs"
     },
-    "./affix": {
-      "types": "./affix/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-affix.mjs"
-    },
     "./anchor": {
       "types": "./anchor/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-anchor.mjs"
     },
+    "./auto-complete": {
+      "types": "./auto-complete/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-auto-complete.mjs"
+    },
+    "./affix": {
+      "types": "./affix/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-affix.mjs"
+    },
     "./alert": {
       "types": "./alert/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-alert.mjs"
+    },
+    "./badge": {
+      "types": "./badge/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-badge.mjs"
     },
     "./back-top": {
       "types": "./back-top/index.d.ts",
@@ -382,14 +390,6 @@
       "types": "./avatar/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-avatar.mjs"
     },
-    "./auto-complete": {
-      "types": "./auto-complete/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-auto-complete.mjs"
-    },
-    "./badge": {
-      "types": "./badge/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-badge.mjs"
-    },
     "./breadcrumb": {
       "types": "./breadcrumb/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-breadcrumb.mjs"
@@ -397,6 +397,10 @@
     "./button": {
       "types": "./button/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-button.mjs"
+    },
+    "./carousel": {
+      "types": "./carousel/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-carousel.mjs"
     },
     "./calendar": {
       "types": "./calendar/index.d.ts",
@@ -410,10 +414,6 @@
       "types": "./cascader/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-cascader.mjs"
     },
-    "./carousel": {
-      "types": "./carousel/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-carousel.mjs"
-    },
     "./check-list": {
       "types": "./check-list/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-check-list.mjs"
@@ -426,29 +426,21 @@
       "types": "./code-editor/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-code-editor.mjs"
     },
-    "./collapse": {
-      "types": "./collapse/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-collapse.mjs"
-    },
     "./color-picker": {
       "types": "./color-picker/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-color-picker.mjs"
     },
-    "./comment": {
-      "types": "./comment/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-comment.mjs"
+    "./collapse": {
+      "types": "./collapse/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-collapse.mjs"
     },
     "./cron-expression": {
       "types": "./cron-expression/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-cron-expression.mjs"
     },
-    "./descriptions": {
-      "types": "./descriptions/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-descriptions.mjs"
-    },
-    "./divider": {
-      "types": "./divider/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-divider.mjs"
+    "./comment": {
+      "types": "./comment/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-comment.mjs"
     },
     "./date-picker": {
       "types": "./date-picker/index.d.ts",
@@ -457,6 +449,14 @@
     "./drawer": {
       "types": "./drawer/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-drawer.mjs"
+    },
+    "./divider": {
+      "types": "./divider/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-divider.mjs"
+    },
+    "./descriptions": {
+      "types": "./descriptions/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-descriptions.mjs"
     },
     "./dropdown": {
       "types": "./dropdown/index.d.ts",
@@ -470,13 +470,17 @@
       "types": "./flex/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-flex.mjs"
     },
+    "./form": {
+      "types": "./form/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-form.mjs"
+    },
     "./float-button": {
       "types": "./float-button/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-float-button.mjs"
     },
-    "./form": {
-      "types": "./form/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-form.mjs"
+    "./grid": {
+      "types": "./grid/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-grid.mjs"
     },
     "./graph": {
       "types": "./graph/index.d.ts",
@@ -485,10 +489,6 @@
     "./hash-code": {
       "types": "./hash-code/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-hash-code.mjs"
-    },
-    "./grid": {
-      "types": "./grid/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-grid.mjs"
     },
     "./i18n": {
       "types": "./i18n/index.d.ts",
@@ -502,6 +502,14 @@
       "types": "./icon/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-icon.mjs"
     },
+    "./input-number": {
+      "types": "./input-number/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-input-number.mjs"
+    },
+    "./layout": {
+      "types": "./layout/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-layout.mjs"
+    },
     "./input": {
       "types": "./input/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-input.mjs"
@@ -510,33 +518,25 @@
       "types": "./input-number-legacy/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-input-number-legacy.mjs"
     },
-    "./layout": {
-      "types": "./layout/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-layout.mjs"
-    },
-    "./input-number": {
-      "types": "./input-number/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-input-number.mjs"
-    },
     "./list": {
       "types": "./list/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-list.mjs"
-    },
-    "./menu": {
-      "types": "./menu/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-menu.mjs"
     },
     "./mention": {
       "types": "./mention/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-mention.mjs"
     },
-    "./message": {
-      "types": "./message/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-message.mjs"
+    "./modal": {
+      "types": "./modal/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-modal.mjs"
     },
     "./notification": {
       "types": "./notification/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-notification.mjs"
+    },
+    "./menu": {
+      "types": "./menu/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-menu.mjs"
     },
     "./page-header": {
       "types": "./page-header/index.d.ts",
@@ -546,29 +546,33 @@
       "types": "./pagination/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-pagination.mjs"
     },
-    "./modal": {
-      "types": "./modal/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-modal.mjs"
+    "./message": {
+      "types": "./message/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-message.mjs"
     },
     "./pipes": {
       "types": "./pipes/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-pipes.mjs"
     },
+    "./popconfirm": {
+      "types": "./popconfirm/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-popconfirm.mjs"
+    },
     "./popover": {
       "types": "./popover/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-popover.mjs"
+    },
+    "./qr-code": {
+      "types": "./qr-code/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-qr-code.mjs"
     },
     "./progress": {
       "types": "./progress/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-progress.mjs"
     },
-    "./popconfirm": {
-      "types": "./popconfirm/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-popconfirm.mjs"
-    },
-    "./qr-code": {
-      "types": "./qr-code/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-qr-code.mjs"
+    "./result": {
+      "types": "./result/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-result.mjs"
     },
     "./rate": {
       "types": "./rate/index.d.ts",
@@ -582,53 +586,53 @@
       "types": "./radio/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-radio.mjs"
     },
-    "./result": {
-      "types": "./result/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-result.mjs"
-    },
-    "./select": {
-      "types": "./select/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-select.mjs"
-    },
     "./skeleton": {
       "types": "./skeleton/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-skeleton.mjs"
-    },
-    "./segmented": {
-      "types": "./segmented/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-segmented.mjs"
     },
     "./slider": {
       "types": "./slider/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-slider.mjs"
     },
+    "./select": {
+      "types": "./select/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-select.mjs"
+    },
+    "./segmented": {
+      "types": "./segmented/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-segmented.mjs"
+    },
     "./space": {
       "types": "./space/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-space.mjs"
-    },
-    "./splitter": {
-      "types": "./splitter/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-splitter.mjs"
-    },
-    "./statistic": {
-      "types": "./statistic/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-statistic.mjs"
-    },
-    "./steps": {
-      "types": "./steps/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-steps.mjs"
     },
     "./spin": {
       "types": "./spin/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-spin.mjs"
     },
-    "./table": {
-      "types": "./table/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-table.mjs"
+    "./statistic": {
+      "types": "./statistic/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-statistic.mjs"
+    },
+    "./splitter": {
+      "types": "./splitter/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-splitter.mjs"
+    },
+    "./steps": {
+      "types": "./steps/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-steps.mjs"
     },
     "./switch": {
       "types": "./switch/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-switch.mjs"
+    },
+    "./table": {
+      "types": "./table/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-table.mjs"
+    },
+    "./tag": {
+      "types": "./tag/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-tag.mjs"
     },
     "./tabs": {
       "types": "./tabs/index.d.ts",
@@ -638,13 +642,13 @@
       "types": "./time-picker/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-time-picker.mjs"
     },
-    "./timeline": {
-      "types": "./timeline/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-timeline.mjs"
-    },
     "./tooltip": {
       "types": "./tooltip/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-tooltip.mjs"
+    },
+    "./timeline": {
+      "types": "./timeline/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-timeline.mjs"
     },
     "./transfer": {
       "types": "./transfer/index.d.ts",
@@ -654,13 +658,13 @@
       "types": "./tree/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-tree.mjs"
     },
-    "./tree-select": {
-      "types": "./tree-select/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-tree-select.mjs"
-    },
     "./tree-view": {
       "types": "./tree-view/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-tree-view.mjs"
+    },
+    "./tree-select": {
+      "types": "./tree-select/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-tree-select.mjs"
     },
     "./typography": {
       "types": "./typography/index.d.ts",
@@ -678,10 +682,6 @@
       "types": "./water-mark/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-water-mark.mjs"
     },
-    "./tag": {
-      "types": "./tag/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-tag.mjs"
-    },
     "./cdk/overflow": {
       "types": "./cdk/overflow/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-cdk-overflow.mjs"
@@ -694,77 +694,73 @@
       "types": "./core/animation/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-core-animation.mjs"
     },
-    "./core/color": {
-      "types": "./core/color/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-core-color.mjs"
-    },
     "./core/config": {
       "types": "./core/config/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-core-config.mjs"
+    },
+    "./core/color": {
+      "types": "./core/color/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-core-color.mjs"
     },
     "./core/element-patch": {
       "types": "./core/element-patch/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-core-element-patch.mjs"
     },
-    "./core/environments": {
-      "types": "./core/environments/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-core-environments.mjs"
-    },
     "./core/highlight": {
       "types": "./core/highlight/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-core-highlight.mjs"
-    },
-    "./core/form": {
-      "types": "./core/form/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-core-form.mjs"
     },
     "./core/logger": {
       "types": "./core/logger/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-core-logger.mjs"
     },
-    "./core/no-animation": {
-      "types": "./core/no-animation/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-core-no-animation.mjs"
+    "./core/form": {
+      "types": "./core/form/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-core-form.mjs"
+    },
+    "./core/environments": {
+      "types": "./core/environments/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-core-environments.mjs"
     },
     "./core/outlet": {
       "types": "./core/outlet/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-core-outlet.mjs"
     },
-    "./core/overlay": {
-      "types": "./core/overlay/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-core-overlay.mjs"
-    },
     "./core/pipe": {
       "types": "./core/pipe/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-core-pipe.mjs"
     },
-    "./core/polyfill": {
-      "types": "./core/polyfill/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-core-polyfill.mjs"
+    "./core/overlay": {
+      "types": "./core/overlay/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-core-overlay.mjs"
+    },
+    "./core/no-animation": {
+      "types": "./core/no-animation/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-core-no-animation.mjs"
     },
     "./core/render": {
       "types": "./core/render/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-core-render.mjs"
     },
-    "./core/time": {
-      "types": "./core/time/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-core-time.mjs"
-    },
-    "./core/testing": {
-      "types": "./core/testing/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-core-testing.mjs"
+    "./core/polyfill": {
+      "types": "./core/polyfill/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-core-polyfill.mjs"
     },
     "./core/services": {
       "types": "./core/services/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-core-services.mjs"
     },
+    "./core/testing": {
+      "types": "./core/testing/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-core-testing.mjs"
+    },
+    "./core/time": {
+      "types": "./core/time/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-core-time.mjs"
+    },
     "./core/trans-button": {
       "types": "./core/trans-button/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-core-trans-button.mjs"
-    },
-    "./core/transition-patch": {
-      "types": "./core/transition-patch/index.d.ts",
-      "default": "./fesm2022/ng-zorro-antd-core-transition-patch.mjs"
     },
     "./core/tree": {
       "types": "./core/tree/index.d.ts",
@@ -781,6 +777,10 @@
     "./core/wave": {
       "types": "./core/wave/index.d.ts",
       "default": "./fesm2022/ng-zorro-antd-core-wave.mjs"
+    },
+    "./core/transition-patch": {
+      "types": "./core/transition-patch/index.d.ts",
+      "default": "./fesm2022/ng-zorro-antd-core-transition-patch.mjs"
     },
     "./experimental/image": {
       "types": "./experimental/image/index.d.ts",
